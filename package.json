@@ -1,0 +1,23 @@
+{
+  "name": "watsonchatbot",
+  "version": "1.0.0",
+  "description": "Trabalho para disciplina de chatbots",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/recigio/watsonchatbot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/recigio/watsonchatbot/issues"
+  },
+  "homepage": "https://github.com/recigio/watsonchatbot#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
