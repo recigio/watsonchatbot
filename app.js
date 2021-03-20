@@ -2,14 +2,32 @@ const express = require('express')
 const app = express()
 const port = 3000
 const WatsonAssistent = require('./ibm/watson')
+const CovidApi = require('./covid/api')
 
 app.get('/', async (req, res) => {
 
-    const watson = new WatsonAssistent();
 
     const htmlStart ="<html><body><div>";
 
-    const saida = "<p>"+ await watson.send(req.query.digite)+"</p>";
+    const watson = new WatsonAssistent();
+    const covidApi  = new CovidApi();
+
+    const resultado = await watson.send(req.query.digite);
+
+    let saida = '';
+    let covidDados = null;
+    if(resultado.result.context.chamaapi){
+        covidDados = JSON.parse(await covidApi.consuta());
+
+        saida = "<p>"+resultado.result.output.text+"</p>";
+        if(covidDados){
+            saida += "<p>Macado informa infectados: "+covidDados.infected+"</p>";
+        }
+    } else {
+        saida = "<p>"+resultado.result.output.text+"</p>";
+    }
+
+
 
     const form = "<form method='get'>" +
         "<input type='text' name='digite' id='digite' placeholder='digite'>" +

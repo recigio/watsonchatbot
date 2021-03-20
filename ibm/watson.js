@@ -20,7 +20,7 @@ class WatsonAssistent {
             }
         );
 
-        return response.result.output.text;
+        return response;
 
     }
 
