@@ -30,13 +30,13 @@ app.get('/', async (req, res) => {
 
 
     const form = "<form method='get'>" +
-        "<input type='text' name='digite' id='digite' placeholder='digite'>" +
+        "<input type='text' name='digite' id='digite' placeholder='digite' autocomplete='off'>" +
         "<input type='submit' name='enviar' id='enviar' value='Enviar!'>" +
         "</form>";
 
     const htmlEnd="</div></body></html>";
-
-    res.send(htmlStart+saida+form+htmlEnd);
+    res.send(htmlStart+saida+form+htmlEnd)
+    //res.sendFile(__dirname + '/chat/index.html');
 
 })
 

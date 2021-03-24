@@ -1,0 +1,67 @@
+<!--
+    Ideias vieram: https://www.peerbits.com/blog/create-chat-application-server-using-node-js-socket-io.html
+                   https://dev.to/paolodelia99/build-a-simple-chat-app-with-node-js-and-socket-io-apk
+-->
+<!doctype html>
+<html>
+    <head>
+        <title>WatsonChatBot</title>
+        <style>
+            * { margin:0; padding: 0; box-sizing: border-box; }
+            body { font: 13px Helvetica, Arial; }
+            form { background: #000; padding: 3px; position: fixed; bottom: 0; width: 100%; }
+            form input[type=text] { border: 0; padding: 10px; width: 90%; margin-right: .5%; }
+            form input[type=submit] { width: 9%; background: rgb(120, 224, 255); border: none; padding: 10px; }
+            #messages { list-style-type: none; margin: 0; padding: 0; }
+            #messages li { padding: 5px 10px; }
+            #messages li:nth-child(odd) { background: #eee; }
+        </style>
+    </head>
+    <body>
+        <ul id="messages"></ul>
+        <form>
+            <input type='text' name='digite' id='digite' placeholder='digite' autocomplete="off">
+            <input type='submit' name='enviar' id='enviar' value='Enviar!'>
+        </form>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript" src="./ibm/watson"></script>
+        <script type="text/javascript" src="./covid/api"></script>
+        <script type="text/javascript">
+            //const WatsonAssistent = import('./ibm/watson')
+            //const CovidApi = import('./covid/api')
+
+            $(function() {
+                const watson = new WatsonAssistent();
+                const covidApi  = new CovidApi();
+
+                let form = $('form')
+                let texto = $('#digite')
+                let mensagens = $('#messages')
+
+                form.on('submit', async function() {
+                    const resultado = await watson.send(texto.val());
+
+                    texto.val('')
+
+                    let saida = '';
+                    let covidDados = null;
+                    if(resultado.result.context.chamaapi){
+                        covidDados = JSON.parse(await covidApi.consuta());
+
+                        saida = "<li>"+resultado.result.output.text;
+                        if(covidDados){
+                            saida += "<br/>"
+                            saida += "Macado informa infectados: "+covidDados.infected;
+                        }
+                        saida += "</li>"
+                    } else {
+                        saida = "<li>"+resultado.result.output.text+"</li>";
+                    }
+                    mensagens.append(saida)
+
+                    return false
+                })
+            })
+        </script>
+    </body>
+</html>
