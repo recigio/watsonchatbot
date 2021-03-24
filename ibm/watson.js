@@ -6,7 +6,7 @@ class WatsonAssistent {
     constructor() {
         this.assistant = new AssistantV1({
             authenticator: new IamAuthenticator({ apikey: 'b13KLWlJ0SAqGvN103mpDWCSa0C8OHqL-KbkEySqaucb' }),
-            url: 'https://gateway.watsonplatform.net/assistant/api/',
+            url: 'https://api.us-south.assistant.watson.cloud.ibm.com/instances/adf7390c-2637-49ae-b110-96afcc494e9a',
             version: '2018-02-16',
         });
     }
@@ -15,7 +15,7 @@ class WatsonAssistent {
 
         const response =  await this.assistant.message(
             {
-                workspaceId: '5b31e9cd-9851-432f-b0ee-2900f001022f',
+                workspaceId: '7657d667-c080-48fc-a342-a39e839fa87a',
                 input: { text: inputtext }
             }
         );

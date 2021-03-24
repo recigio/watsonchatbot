@@ -31,7 +31,7 @@ app.get('/', async (req, res) => {
 
     const form = "<form method='get'>" +
         "<input type='text' name='digite' id='digite' placeholder='digite'>" +
-        "<input type='submit' name='enviar' id='enviar' value='Enviar!'" +
+        "<input type='submit' name='enviar' id='enviar' value='Enviar!'>" +
         "</form>";
 
     const htmlEnd="</div></body></html>";
