@@ -3,11 +3,11 @@ const app = express()
 const port = 3000
 const WatsonAssistent = require('./ibm/watson')
 const CovidApi = require('./covid/api')
+const cors = require('cors')
 
-app.get('/', async (req, res) => {
 
 
-    const htmlStart ="<html><body><div>";
+app.get('/',cors(), async (req, res) => {
 
     const watson = new WatsonAssistent();
     const covidApi  = new CovidApi();
@@ -16,28 +16,22 @@ app.get('/', async (req, res) => {
 
     let saida = '';
     let covidDados = null;
+
+    //eu nao sei mais como ta o contexto para buscar os resultados
     if(resultado.result.context.chamaapi){
         covidDados = JSON.parse(await covidApi.consuta());
 
-        saida = "<p>"+resultado.result.output.text+"</p>";
+        saida = resultado.result.output.text;
         if(covidDados){
-            saida += "<p>Macado informa infectados: "+covidDados.infected+"</p>";
+            saida += "Macado informa infectados: "+covidDados.infected;
         }
     } else {
-        saida = "<p>"+resultado.result.output.text+"</p>";
+        saida = resultado.result.output.text;
     }
 
+    //precisava salvar a saida
 
-
-    const form = "<form method='get'>" +
-        "<input type='text' name='digite' id='digite' placeholder='digite' autocomplete='off'>" +
-        "<input type='submit' name='enviar' id='enviar' value='Enviar!'>" +
-        "</form>";
-
-    const htmlEnd="</div></body></html>";
-    res.send(htmlStart+saida+form+htmlEnd)
-    //res.sendFile(__dirname + '/chat/index.html');
-
+    res.send(saida)
 })
 
 app.listen(port, () => {

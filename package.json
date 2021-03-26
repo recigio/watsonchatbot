@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/recigio/watsonchatbot#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "ibm-watson": "^6.0.3",
     "request": "^2.88.2",
