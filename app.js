@@ -19,50 +19,37 @@ app.get('/',cors(), async (req, res) => {
 
     try {
 
-        const resultado = await watson.send(req.query.digite);
-
-        let saida = '';
-
-        if(resultado.result.output.generic[0].title){
-            saida = resultado.result.output.generic[0].title;
-
-            saida +='<ul>';
-            for(const option of resultado.result.output.generic[0].options){
-                saida += "<li>"+option.label+"</li>";
-            }
-            saida +='<ul>';
-
-        }else {
-            saida = resultado.result.output.generic[0].text;
-        }
-
-        res.send(saida);
+       sendToWatson(req,res);
 
     } catch (e){
 
         //cria nova sessao
         //gambiarra por que ibm perde sessao as vezes
         await watson.createSession();
-
-        const resultado = await watson.send(req.query.digite);
-
-        let saida = '';
-
-        if(resultado.result.output.generic[0].title){
-            saida = resultado.result.output.generic[0].title;
-
-            saida +='<ul>';
-            for(const option of resultado.result.output.generic[0].options){
-                saida += "<li>"+option.label+"</li>";
-            }
-            saida +='<ul>';
-
-        }else {
-            saida = resultado.result.output.generic[0].text;
-        }
-
-        res.send(saida);
+        sendToWatson(req,res);
     }
 
 
 });
+
+async function sendToWatson(req,res){
+
+    const resultado = await watson.send(req.query.digite);
+
+    let saida = '';
+
+    if(resultado.result.output.generic[0].title){
+        saida = resultado.result.output.generic[0].title;
+
+        saida +='<ul>';
+        for(const option of resultado.result.output.generic[0].options){
+            saida += "<li>"+option.label+"</li>";
+        }
+        saida +='<ul>';
+
+    }else {
+        saida = resultado.result.output.generic[0].text;
+    }
+
+    res.send(saida);
+}
