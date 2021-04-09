@@ -27,7 +27,6 @@ app.get('/',cors(), async (req, res) => {
 
             let saida = '';
 
-
             if(resultado.result.output.generic[0].title){
                 saida = resultado.result.output.generic[0].title;
 

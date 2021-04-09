@@ -7,7 +7,7 @@
             <div class="card card-bordered">
 
               <div class="card-header">
-                <h4 class="card-title"><strong>Chat</strong></h4>
+                <h4 class="card-title"><img src="https://img.icons8.com/color/36/000000/doctor-female.png"><strong>Viridiana</strong></h4>
               </div>
 
               <div class="ps-container ps-theme-default ps-active-y" id="chat-content" style="overflow-y: scroll !important; height:400px !important;">
