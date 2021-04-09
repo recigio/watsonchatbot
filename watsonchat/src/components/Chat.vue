@@ -14,7 +14,7 @@
                 <div v-for="(item) in listaMensagens" :key="item.time" v-bind:class="[item.tipo==='usuario' ? 'media media-chat' : 'media media-chat media-chat-reverse']">
                   <img class="avatar" v-if="item.tipo==='usuario'" src="https://img.icons8.com/color/36/000000/administrator-male.png"/>
                   <div class="media-body">
-                    <p>{{ item.message }}</p>
+                    <p v-html="item.message"></p>
                     <p class="meta">{{ item.time }}.</p>
                   </div>
                 </div>
@@ -67,7 +67,7 @@ export default {
       //request
       axios.get('http://localhost:3000?digite='+this.mensagem)
           .then( response => {
-            this.listaMensagens.push({'message': response.data[0], time:Date.now(), tipo: 'watson'});
+            this.listaMensagens.push({'message': response.data, time:Date.now(), tipo: 'watson'});
 
             //$nextTick é um hack para esperar atualziar o chat scrooll do chat
 
