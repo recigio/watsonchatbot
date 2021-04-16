@@ -1,14 +1,16 @@
 # watsonchatbot
-Trabalho para disciplina de chatbots
+Trabalho para disciplina de Chatbots. 
 
-# Documentação
+Este é um servidor e interface gráfica para ser conectar a um chatbot IBM Watson que fala sobre COVID-19. 
+
+## Documentação
 https://github.com/watson-developer-cloud/node-sdk  
 https://expressjs.com/pt-br/starter/hello-world.html
 
-## Dependencias
+## Dependências
 - nodejs
 
-# Passos para rodas o chat:
+# Passos para rodar a aplicação:
 - Servidor da aplicação: na pasta raiz, abrir um console e rodar os comandos: 
   - npm install
   - npm start 
