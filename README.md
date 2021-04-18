@@ -37,6 +37,9 @@ Uma fluxo de diálogo básico pode ser encontrado na pasta `extras/Viridiana.pdf
 ## Gráficos sobre as conversas
 O arquivo `extras/AnaliseIndicadores.ipynb` oferece alguns gráficos sobre os logs do chatbot, ele é um arquivo `jupyter`. Os logs são recuperados do Watson via bibliotecas oferecidas pela IBM para este fim, mas também existe um arquivo `extras/logs_viridiana.csv` que contém alguns logs já formatados para serem usados dentro do notebook. Caso queira usar o arquivo de `.csv` siga as instruções dentro do notebook.
 
+## Json do Chatbot
+O arquivo `extras/skill-chabot_covid.json` contém o json de configuração do chatbot conforme ele se encontra no Watson Assistant.
+
 ## Autores
 
 Desenvolvido por: Evandro Matheus Schmitz, Leonardo Fiedler e Recigio Poffo.
