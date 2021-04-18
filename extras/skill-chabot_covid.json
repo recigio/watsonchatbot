@@ -773,7 +773,7 @@
           {
             "values": [
               {
-                "text": "Então o recomendado é que você comunique todas as pessoas com quem você teve contato e você procure o serviço de saúde. Não tente automedicação, isto pode agravar a sua situação. Você provavelmente irá precisar fazer um teste para confirma, mas enquanto você espera o resultado, faça uma auto quarentena."
+                "text": "Então o recomendado é que você comunique todas as pessoas com quem teve contato e procure o serviço de saúde. Não tente automedicação, isto pode agravar a sua situação. Você provavelmente irá precisar realizar o teste para confirma, mas enquanto aguarda o resultado, fique em casa e evite contato externo."
               }
             ],
             "response_type": "text",
@@ -803,10 +803,10 @@
           {
             "values": [
               {
-                "text": "Os principais sintomas da doenças são: febre, tosse, dor de garganta e/ou coriza, com ou sem falta de ar. Se você estiver apresentando algum deles deve procurar um serviço de saúde. Em casos mais graves a pessoa pode ter dificuldades para respirar e pode vir a óbito. Contudo nem todos os infectados apresentam os sintomas e as vezes os sintomas podem variar. Em caso de suspeita procure ajuda médica."
+                "text": "Os principais sintomas da doenças são: febre, tosse, dor de garganta e/ou coriza, com ou sem falta de ar. Se você estiver apresentando algum destes sintomas deve procurar um serviço de saúde. Em casos mais graves, a pessoa pode ter dificuldades para respirar e pode vir a óbito. Contudo, nem todos os infectados apresentam os sintomas e as vezes a gravidade dos sintomas podem variar. Em caso de suspeita, procure ajuda médica."
               },
               {
-                "text": "Os sintomas mais frequentes da doença são: febre, tosse, dor de garganta e/ou coriza, com ou sem falta de ar. Em casos mais graves a doença pode levar a óbito. Se você estiver sentido algo, deve procurar ajuda médica e seguir as orientações. Os sintomas podem variar e nem todos os infectados irão desenvolver eles, então em caso de suspeita é preciso procurar um médico."
+                "text": "Os sintomas mais frequentes da doença são: febre, tosse, dor de garganta e/ou coriza, com ou sem falta de ar. Em casos mais graves, a doença pode levar a óbito. Se você estiver sentido algo, deve procurar ajuda médica e seguir as orientações recomendadas. Os sintomas podem variar e nem todos os infectados irão desenvolver eles, então em caso de suspeita, é preciso procurar um médico o quanto antes."
               }
             ],
             "response_type": "text",
@@ -825,7 +825,7 @@
           {
             "values": [
               {
-                "text": "Até o presente momento no Brasil só existe um medicamento aprovado para ser usado no tratamento da doença o Remdesivir, mas ele é para uso hospitalar e tem certas restrições. Em caso de qualquer sintoma o melhor a fazer é procurar um médico e pedir orientações. Você não deve tentar se medicar sozinho, pois isto pode complicar a sua situação."
+                "text": "Até o presente momento, no Brasil, só existe um medicamento aprovado para ser usado no tratamento da doença, o Remdesivir, mas ele é para uso exclusivamente hospitalar e tem certas restrições. Em caso de qualquer sintoma, o melhor a fazer é procurar um médico e pedir orientações. Você não deve se medicar sozinho, pois isto pode acarretar em complicações."
               }
             ],
             "response_type": "text",
@@ -908,7 +908,7 @@
           {
             "values": [
               {
-                "text": "O vírus da COVID-19 pode sobreviver em determinados ambientes e superfícies por um período de tempo. Esse tempo varia conforme o material da superfície entre outras coisas. Higienizar os locais serve para tentar eliminar o vírus que possa estar presente. Neste ponto também é necessário destacar que a limpeza de calçados e não usar calçados que vieram da rua dentro de casa é um ponto importante."
+                "text": "O vírus da COVID-19 pode sobreviver em determinados ambientes e superfícies por um período de tempo. Esse tempo varia conforme o material da superfície entre outros aspectos. Higienizar os locais serve para tentar eliminar o vírus que possa estar presente. Neste ponto também é necessário destacar que a limpeza de calçados e a não utilização de calçados que vieram da rua, dentro de casa, é um ponto importante."
               }
             ],
             "response_type": "text",
@@ -1002,7 +1002,7 @@
           {
             "values": [
               {
-                "text": "Para saber se você realmente possui a doença é necessário fazer um teste. Existem duas opções o teste rápido, que não é muito confiável e o teste PCR, que é mais caro, mas identifica a presença do vírus."
+                "text": "Para saber se você realmente possui a doença é necessário fazer um teste. Existem duas opções: o teste rápido, que não é muito confiável e o teste PCR, que é mais caro, mas identifica com maior precisão a presença ou não do vírus."
               }
             ],
             "response_type": "text",
@@ -1019,7 +1019,7 @@
       "output": {
         "generic": [
           {
-            "title": "Vocês por um acaso está apresentando sintomas como: febre, tosse, dor de garganta e/ou coriza, com ou sem falta de ar?",
+            "title": "Você por um acaso está apresentando sintomas como: febre, tosse, dor de garganta e/ou coriza, com ou sem falta de ar?",
             "options": [
               {
                 "label": "Sim",
@@ -1075,10 +1075,10 @@
           {
             "values": [
               {
-                "text": "Se você teve contato com uma pessoa infectada o recomendado é procurar um serviço de saúdo e informar as pessoas com as quais você teve contato depois."
+                "text": "Se você teve contato com uma pessoa infectada o recomendado é procurar um serviço de saúde e informar as pessoas com as quais você teve contato depois."
               },
               {
-                "text": "Neste caso é importante que você informe as pessoas com as quais teve contato depois sobre a situação e que você também procure um serviço de saúde. Isto é importante para resguarda a sua saúde e a saúde das outras pessoas"
+                "text": "Neste caso é importante que você informe as pessoas com as quais teve contato e que também procure um serviço de saúde. Isto é importante para resguarda a saúde sua e a das outras pessoas também."
               }
             ],
             "response_type": "text",
@@ -1097,10 +1097,10 @@
           {
             "values": [
               {
-                "text": "O colapso do sistema de saúde se refere ao fato dos hospitais não darem mais conta de tratar os doentes. No caso da COVID-19 algumas pessoas precisam de tratamento e até UTI. Quando todos os hospitais de uma região não tem mais como atender as pessoas dizemos que ocorreu o colapso e muitas pessoas podem acabar perdendo a vida pois não vão conseguir tratamento."
+                "text": "O colapso do sistema de saúde se refere ao fato dos hospitais não darem mais conta de tratar os doentes. No caso da COVID-19 algumas pessoas precisam de tratamento e até UTI. Quando todos os hospitais de uma região não tem mais como atender as pessoas, dizemos que ocorreu o colapso e muitas pessoas podem acabar perdendo a vida por falta de leitos hospitalares."
               },
               {
-                "text": "Quando os hospitais de uma região estão todos lotados e não tem mais como atender pacientes, mas existem muitos pacientes aguardando atendimento dizemos que ocorreu o colapso. Esta é uma situação terrível pois pessoas necessitando de atendimento naquele local podem morrer. O COVID-19 pode onerar o sistema de saúde ocupando vagas de hospital e leitos de UTI, o que contribui pra gerar a situação de colapso."
+                "text": "Quando os hospitais de uma região estão todos lotados e não tem mais como atender pacientes, mas ainda existem muitos pacientes aguardando atendimento, dizemos que ocorreu o colapso. Esta é uma situação terrível, pois pessoas necessitando de atendimento naquele local podem morrer. A COVID-19 pode honerar o sistema de saúde, ocupando vagas de hospitais e leitos de UTI, o que contribui para a escassez de vagas em hospitais."
               }
             ],
             "response_type": "text",
@@ -1120,10 +1120,10 @@
           {
             "values": [
               {
-                "text": "As variantes da doença se referem aos vírus da COVID que sofreram alguma mutação e desta forma modificaram o seu comportamento. Os efeitos que a mutação provação são variados. A variante P1 da doença por exemplo é mais contagiosa, o que faz com que seja mais fácil desenvolver a doença."
+                "text": "As variantes da doença se referem aos vírus da COVID que sofreram alguma mutação e desta forma modificaram o seu comportamento. Os efeitos que a mutação provocam são variados. A variante P1 da doença, por exemplo, é mais contagiosa, o que faz com que seja mais fácil desenvolver alguma complicação."
               },
               {
-                "text": "As variantes da COVID são coronavirus que sofreram algum mutação e desta forma mudaram o seu \"comportamento\". No Brasil temos um exemplo preocupante da variante P1 do coronavirus, variante de Manaus, que é mais contagiosa do que o coronavirus que originalmente chegou ao Brasil."
+                "text": "As variantes da COVID são os vírus que sofreram algum mutação e, desta forma, mudaram o seu \"comportamento\". No Brasil, temos um exemplo preocupante da variante P1 do coronavirus, popularmente conhecida como variante de Manaus, que é mais contagiosa do que a que originalmente chegou ao Brasil."
               }
             ],
             "response_type": "text",
@@ -1176,7 +1176,7 @@
           {
             "values": [
               {
-                "text": "Esses são os sintomas comuns da COVID, mas ela pode apresentar outros ou você pode ser um assintomático. No caso de suspeita procurar um serviço de saúde para fazer um teste e em caso positivo procurar um médico para entender a melhor forma de agir. Não tente fazer automedicação."
+                "text": "Esses são os sintomas comuns da COVID, mas ela pode apresentar outros ou você pode ser um assintomático. No caso de suspeita, procure um serviço de saúde para fazer um teste e em caso positivo, procure imediatamente um médico para entender a melhor forma de agir. Não tente fazer automedicação."
               }
             ],
             "response_type": "text",
@@ -1196,7 +1196,7 @@
           {
             "values": [
               {
-                "text": "São máscaras recomendadas para a população em geral. Podem ser fabricadas como diversos materiais, mas o mais recomendado são três camadas de tecido, e que elas sejam trocadas a cada 2 horas ou se estiverem húmidas. Quanto maior for a contagem de fios da máscara melhor. A OMS recomenda modelos híbridos com: uma camada absorvente, uma filtrante e uma de material não absorvente . Máscaras de tricô não servem, o espaço entre os fios é muito grande e ele não filtra o ar. Lenços, cachecóis e bandanas protegem menos, então só devem ser usados em último recurso."
+                "text": "São máscaras recomendadas para a população em geral. Podem ser fabricadas com diversos materiais, mas o mais recomendado são três camadas de tecido, e que elas sejam trocadas a cada 2 horas ou se estiverem húmidas. Quanto maior for a contagem de fios da máscara, melhor. A OMS recomenda modelos híbridos com: uma camada absorvente, uma filtrante e uma de material não absorvente . Máscaras de tricô não servem, o espaço entre os fios é muito grande e ele não filtra o ar. Lenços, cachecóis e bandanas protegem menos, então só devem ser usados como último recurso."
               }
             ],
             "response_type": "text",
@@ -1214,7 +1214,7 @@
       "output": {
         "generic": [
           {
-            "title": "O vírus pode viajar por aerossóis, partículas muito pequenas geradas durante a respiração, espirros, etc.. Máscaras podem ajudar a filtrar filtrar esses aerossóis, diminuindo a liberação que nós fazemos deles, e o nosso contato com os que estão no ar. Como a maioria das pessoas infectadas não apresenta sintomas, elas podem estar liberando o vírus sem saber. Existem várias máscaras e como exemplos podemos ter:",
+            "title": "O vírus pode viajar por aerossóis, partículas muito pequenas geradas durante a respiração, espirros, etc.. Máscaras podem ajudar a filtrar esses aerossóis, diminuindo a liberação que nós fazemos deles, e o nosso contato com os que estão no ar. Como a maioria das pessoas infectadas não apresenta sintomas, elas podem estar liberando o vírus sem saber. Existem várias máscaras e como exemplos podemos ter:",
             "options": [
               {
                 "label": "PFF2/N95",
@@ -1257,7 +1257,7 @@
           {
             "values": [
               {
-                "text": "O vírus pode ser transmitindo por outras formas além do ar, como contato com pessoas ou superfícies infectadas. Manter uma distância mínima entre as pessoas ajuda a diminuir a possibilidade de pegar o vírus, isso se as outras formas de prevenção forem seguidas juntas."
+                "text": "O vírus pode ser transmitindo por outras formas além do ar, como contato com pessoas ou superfícies infectadas. Manter uma distância mínima entre as pessoas ajuda a diminuir a possibilidade de pegar o vírus, contanto que as outras formas de prevenção sejam seguidas juntas."
               }
             ],
             "response_type": "text",
@@ -1277,7 +1277,7 @@
           {
             "values": [
               {
-                "text": "O lockdown é um termo usado para definir o fechamento de uma região. A ideia é impedir e limitar a circulação das pessoas para diminuir o contágio com uma doença e até parar ela. Sem pessoas circulando a taxa de infecção tende a cair, o que pode ajudar a evitar colapsos no sistema de saúde e salvar vidas."
+                "text": "O lockdown é um termo usado para definir o fechamento de uma região. A ideia é impedir e limitar a circulação das pessoas em espaços de aglomeração, como shopping's, restaurantes, praças... com intuito de diminuir o contágio com uma doença ou até frear ela. Sem pessoas circulando, a taxa de infecção tende a cair, o que pode ajudar a evitar colapsos no sistema de saúde e salvar vidas."
               },
               {
                 "text": "O lockdown é a limitação da circulação das pessoas para diminuir o contágio com uma doença. É uma medida amarga, mas que ajuda a controlar a doença e alivia o sistema de saúde, caso a doença exija internações. Sem isto, podemos ter um colapso no sistema de saúde."
@@ -1321,10 +1321,10 @@
           {
             "values": [
               {
-                "text": "Um caso grave da doença se refere a pacientes que precisam de internação para recebimento de oxigênio e as vezes são até levados para a UTI. A dificuldade de respirar pode fazer com que sejam necessário a utilização de ventilação mecânica para tentar garantir a vida do paciente."
+                "text": "Um caso grave da doença se refere a pacientes que precisam de internação para recebimento de oxigênio e as vezes são até levados para a UTI. A dificuldade de respirar pode fazer com que seja necessário a utilização de ventilação mecânica para garantir a vida do paciente."
               },
               {
-                "text": "Nos casos graves da doença o paciente terá muita dificuldade para respirar, necessitando de internação para receber oxigênio. Em casos mais severos da doença será necessário que a pessoa receba cuidados em uma UTI e faça uso de ventilação mecânica (usar respirador)"
+                "text": "Nos casos graves da doença o paciente terá muita dificuldade para respirar, necessitando de internação para receber oxigênio. Em casos mais severos da doença, será necessário que a pessoa receba cuidados em uma UTI e faça uso de ventilação mecânica (uso de respirador)."
               }
             ],
             "response_type": "text",
@@ -1365,7 +1365,7 @@
           {
             "values": [
               {
-                "text": "São as máscaras que mais protegem e indicadas para profissionais de saúde, ou quem está em ambientes com risco mais elevado. Seus preços são variados e a denominação pode ser tanto PPF2 ou N95, cada pais usa um termo diferente. Máscaras KN95 seriam as equivalentes chinesas, mas não possuem uma padronização na produção então não são tão confiáveis quanto as N95 ou PPF2. Esse tipo de máscara tem um poder de filtragem de 95% e deve-se preferir os modelos sem válvulas, pois elas não filtram o ar que sai. Elas podem ser usadas por mais tempo que os outros tipos de máscaras. Para mais informações e saber onde você pode comprar esse tipo acesse: https://www.pffparatodos.com/."
+                "text": "São as máscaras que mais protegem e são indicadas para profissionais de saúde, ou quem está em ambientes com risco mais elevado, como os aeroportos. Os preços são variados e a denominação pode ser tanto PPF2 ou N95, cada país usa um termo diferente. Além disso, aqui no Brasil, para ser um PFF2 autêntica, a máscara precisa ter o selo da Anvisa. Máscaras KN95 seriam as equivalentes chinesas, mas não possuem uma padronização na produção então não são tão confiáveis quanto as N95 ou PPF2. Esse tipo de máscara tem um poder de filtragem de 95% e deve-se preferir os modelos sem válvulas, pois elas não filtram o ar que sai. Elas podem ser usadas por mais tempo que os outros tipos de máscaras. Para mais informações e saber onde você pode comprar, acesse: https://www.pffparatodos.com/."
               }
             ],
             "response_type": "text",
@@ -1384,7 +1384,7 @@
           {
             "values": [
               {
-                "text": "Ela possui uma filtragem melhor que as máscaras de tecido e tem um clip de ajuste no nariz. Ela é feita com materiais filtrantes específicos e deve seguir padrões. Ela também deve ser trocada quando estiverem húmidas, pois sua filtragem pode ficar comprometida."
+                "text": "Ela possui uma filtragem melhor que as máscaras de tecido e tem um clip de ajuste no nariz. Ela é feita com materiais filtrantes específicos e deve seguir padrões. Também deve ser trocada quando estiverem húmidas, pois sua filtragem pode ficar comprometida."
               }
             ],
             "response_type": "text",
@@ -1404,10 +1404,10 @@
           {
             "values": [
               {
-                "text": "O chamado grupo de risco se refere a pessoas que são mais propícias a desenvolver os quadros graves da doença e que precisam de mais cuidados. Esse grupo inclui pessoas idosas e com algum tipo de condição médica pré-existente, como por exemplo doenças pulmonares ou cardíacas."
+                "text": "O chamado grupo de risco, refere-se a pessoas que são mais propícias a desenvolver os quadros graves da doença e que precisam de mais cuidados. Esse grupo inclui pessoas idosas ou com algum tipo de condição médica pré-existente, como por exemplo doenças pulmonares ou cardíacas."
               },
               {
-                "text": "Pessoas idosas ou com comorbidades são classificadas como um grupo de risco pois são mais suscetíveis a desenvolver os quadros graves da doença."
+                "text": "Pessoas idosas ou com comorbidades são classificadas como um grupo de risco pois são mais suscetíveis a desenvolver os quadros mais graves da doença."
               }
             ],
             "response_type": "text",
