@@ -1,0 +1,1554 @@
+{
+  "intents": [
+    {
+      "intent": "boas_vindas",
+      "examples": [
+        {
+          "text": "Boa Noite"
+        },
+        {
+          "text": "Boa Tarde"
+        },
+        {
+          "text": "Bom dia"
+        },
+        {
+          "text": "Como vai"
+        },
+        {
+          "text": "Dia"
+        },
+        {
+          "text": "Noite"
+        },
+        {
+          "text": "Oi"
+        },
+        {
+          "text": "Olá"
+        },
+        {
+          "text": "Tarde"
+        }
+      ],
+      "description": "Textos de Ois"
+    },
+    {
+      "intent": "casos_graves",
+      "examples": [
+        {
+          "text": "Agravamento da doença"
+        },
+        {
+          "text": "Desenvolver caso grave"
+        },
+        {
+          "text": "O que de pior pode ocorrer"
+        },
+        {
+          "text": "O que são os casos graves?"
+        },
+        {
+          "text": "Pior caso da doença"
+        },
+        {
+          "text": "Sintomas mais extremos"
+        }
+      ],
+      "description": "Perguntas relacionadas aos casos graves da doenças"
+    },
+    {
+      "intent": "colapso",
+      "examples": [
+        {
+          "text": "Como o colapso nos afeta negativamente?"
+        },
+        {
+          "text": "O que é colapso do sistema de saúde"
+        },
+        {
+          "text": "O que ocorre se der um colapso"
+        },
+        {
+          "text": "Qual é o problema com o colapso"
+        }
+      ],
+      "description": "Falas sobre o que seria o colapso"
+    },
+    {
+      "intent": "contato_infectado",
+      "examples": [
+        {
+          "text": "Tive contado com uma pessoa infectada"
+        },
+        {
+          "text": "Tive contato com um infectado"
+        },
+        {
+          "text": "Um conhecido foi infectado"
+        }
+      ],
+      "description": "Informações para a pessoa se ela teve contado com um infectado"
+    },
+    {
+      "intent": "distanciamento",
+      "examples": [
+        {
+          "text": "O que é distanciamento social?"
+        },
+        {
+          "text": "Porque devo evitar ficar muito perto das pessoas"
+        },
+        {
+          "text": "Por quê devo ficar longe das pessoas?"
+        },
+        {
+          "text": "Por quê devo me afastar das pessoas neste momento?"
+        },
+        {
+          "text": "porque ficar longe dos outros?"
+        }
+      ],
+      "description": "Informações relacionadas ao distanciamento"
+    },
+    {
+      "intent": "grupo_risco",
+      "examples": [
+        {
+          "text": "Quais são as pessoas mais vulneráveis a doença"
+        },
+        {
+          "text": "Quem pode desenvolver complicações com relação a doença"
+        },
+        {
+          "text": "Quem são os mais afetados?"
+        },
+        {
+          "text": "Quem tem mais chance de ter o caso grave"
+        }
+      ],
+      "description": "Falas sobre o grupo de risco"
+    },
+    {
+      "intent": "higiene_maos",
+      "examples": [
+        {
+          "text": "Como devo lavar as mãos?"
+        },
+        {
+          "text": "Como higienizar as mãos?"
+        },
+        {
+          "text": "Como limpo as mãos"
+        },
+        {
+          "text": "Como manter as mãos higienizadas?"
+        },
+        {
+          "text": "Cuidar das mãos"
+        },
+        {
+          "text": "limpar as mãos"
+        },
+        {
+          "text": "Porque higienizar as mãos?"
+        }
+      ],
+      "description": "Explicar os passos para proteger as mãos"
+    },
+    {
+      "intent": "infectado",
+      "examples": [
+        {
+          "text": "Acho que estou infectado"
+        },
+        {
+          "text": "Acho que fui contaminado?"
+        },
+        {
+          "text": "Como lidar com a contaminação?"
+        },
+        {
+          "text": "Como lido com a doença"
+        },
+        {
+          "text": "Como prosseguir em caso de infecção?"
+        },
+        {
+          "text": "Estou doente"
+        },
+        {
+          "text": "Estou infectado"
+        },
+        {
+          "text": "Eu estou apresentando sintomas"
+        },
+        {
+          "text": "O que eu faço se estiver infectado?"
+        },
+        {
+          "text": "O que fazer se eu estiver contaminado?"
+        },
+        {
+          "text": "Possuo os sintomas"
+        },
+        {
+          "text": "Se for infectado, como devo agir?"
+        },
+        {
+          "text": "Tenho sintomas"
+        }
+      ],
+      "description": "Perguntas referentes a pessoa estar infectada"
+    },
+    {
+      "intent": "info",
+      "examples": [
+        {
+          "text": "Me fale da doença"
+        },
+        {
+          "text": "me fale do virus"
+        },
+        {
+          "text": "me fale mais sobre a covid19"
+        },
+        {
+          "text": "me fale mais sobre a doença"
+        },
+        {
+          "text": "me fale sobre a covid"
+        },
+        {
+          "text": "O que é corona"
+        },
+        {
+          "text": "O que é COVID?"
+        },
+        {
+          "text": "O que é COVID-19?"
+        },
+        {
+          "text": "O que é o coronavirus"
+        },
+        {
+          "text": "O que é Sars Cov 2?"
+        },
+        {
+          "text": "Vírus"
+        }
+      ],
+      "description": "Informações"
+    },
+    {
+      "intent": "lockdown",
+      "examples": [
+        {
+          "text": "Como funciona lockdown?"
+        },
+        {
+          "text": "O que é o fechamento?"
+        },
+        {
+          "text": "O que é o lockdown?"
+        },
+        {
+          "text": "Para que serve lockdown?"
+        },
+        {
+          "text": "Porque fechar?"
+        }
+      ],
+      "description": "Perguntas sobre o lockdown"
+    },
+    {
+      "intent": "mascaras",
+      "examples": [
+        {
+          "text": "Como as máscaras evitam a covid"
+        },
+        {
+          "text": "Como as máscaras previnem a doença"
+        },
+        {
+          "text": "Como as máscaras protegem da doença"
+        },
+        {
+          "text": "mascara"
+        },
+        {
+          "text": "máscaras"
+        },
+        {
+          "text": "máscaras de proteção"
+        },
+        {
+          "text": "Porque as máscaras evitam a doenças"
+        },
+        {
+          "text": "Porque as máscaras previnem a Covid"
+        },
+        {
+          "text": "Porque as máscaras protegem"
+        },
+        {
+          "text": "uso de mascaras"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "prevencao",
+      "examples": [
+        {
+          "text": "Como eu evito a Infecção?"
+        },
+        {
+          "text": "Como eu me cuido?"
+        },
+        {
+          "text": "Como eu me protejo?"
+        },
+        {
+          "text": "Como se prevenir?"
+        },
+        {
+          "text": "Dá pra evitar?"
+        },
+        {
+          "text": "é possível evitar?"
+        },
+        {
+          "text": "O que eu faço para evitar pegar a doença"
+        },
+        {
+          "text": "Prevenção da doença"
+        },
+        {
+          "text": "Quais cuidados devo ter?"
+        },
+        {
+          "text": "Quais cuidados devo tomar?"
+        }
+      ],
+      "description": "Perguntas relacionadas a prevenção da doença"
+    },
+    {
+      "intent": "sintomas",
+      "examples": [
+        {
+          "text": "O que a doença provoca?"
+        },
+        {
+          "text": "O que ela causa"
+        },
+        {
+          "text": "O que eu posso apresentar"
+        },
+        {
+          "text": "O que eu sinto se eu estiver infectado?"
+        },
+        {
+          "text": "O que eu vou sentir se eu tiver a doença"
+        },
+        {
+          "text": "O que um infectado apresenta"
+        },
+        {
+          "text": "O que um infectado tem?"
+        },
+        {
+          "text": "Quais os sintomas de um infectado"
+        },
+        {
+          "text": "Quais são os sintomas da doença"
+        },
+        {
+          "text": "Se eu tiver covid o que eu vou ter?"
+        },
+        {
+          "text": "Se tiver covid o que eu vou apresentar?"
+        },
+        {
+          "text": "Sintomas covid"
+        },
+        {
+          "text": "Sintomas COVID-19"
+        },
+        {
+          "text": "Sintomas Sars Cov2"
+        }
+      ],
+      "description": "Falar sobre os sintomas da doença"
+    },
+    {
+      "intent": "situacao_brasil",
+      "examples": [
+        {
+          "text": "Como anda a pandemia no Brasil?"
+        },
+        {
+          "text": "Como anda o Brasil"
+        },
+        {
+          "text": "Como está a covid no Brasil?"
+        },
+        {
+          "text": "Como está a pandemia no Brasil"
+        },
+        {
+          "text": "E a situação da pandemia no Brasil?"
+        },
+        {
+          "text": "Qual é a situação da covid no Brasil?"
+        },
+        {
+          "text": "Qual é a situação do Brasil?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "smalltalk_bot",
+      "examples": [
+        {
+          "text": "O que é você"
+        },
+        {
+          "text": "O que ser você"
+        },
+        {
+          "text": "Pra que você serve"
+        },
+        {
+          "text": "Qual o seu objetivo"
+        },
+        {
+          "text": "Qual o seu propósito"
+        },
+        {
+          "text": "Quem é você"
+        },
+        {
+          "text": "Quem ser você"
+        }
+      ],
+      "description": "Perguntas sobre o bot"
+    },
+    {
+      "intent": "testes",
+      "examples": [
+        {
+          "text": "Como confirmar a presença da doença?"
+        },
+        {
+          "text": "Como confirmar se estou infectado?"
+        },
+        {
+          "text": "Como eu descubro se tenho covid?"
+        },
+        {
+          "text": "Como saber se estou infectado?"
+        },
+        {
+          "text": "Como saber se tenho a doença?"
+        },
+        {
+          "text": "Como sei se tenho covid"
+        },
+        {
+          "text": "Quais são os tipos de teste?"
+        }
+      ],
+      "description": "Informações sobre testagem"
+    },
+    {
+      "intent": "tratamento_precoce",
+      "examples": [
+        {
+          "text": "Azitromicina"
+        },
+        {
+          "text": "Cloroquina"
+        },
+        {
+          "text": "Cloroquina cura"
+        },
+        {
+          "text": "Hidroxicloroquina"
+        },
+        {
+          "text": "Ivermectina"
+        },
+        {
+          "text": "O que é tratamento precoce?"
+        },
+        {
+          "text": "Profilaxia"
+        }
+      ],
+      "description": "Infos sobre tratamento precoce"
+    },
+    {
+      "intent": "tratamentos",
+      "examples": [
+        {
+          "text": "Como posso me tratar?"
+        },
+        {
+          "text": "Existe cura?"
+        },
+        {
+          "text": "Quais remédios posso usar?"
+        },
+        {
+          "text": "Qual o tratamento?"
+        },
+        {
+          "text": "Tem cura?"
+        }
+      ],
+      "description": "Perguntas referentes aos tratamentos"
+    },
+    {
+      "intent": "vacina",
+      "examples": [
+        {
+          "text": "Como está a situação da vacina"
+        },
+        {
+          "text": "Como está a vacinação"
+        },
+        {
+          "text": "Diga-me como está a vacinação em alguma cidade"
+        },
+        {
+          "text": "Quantas doses de imunizantes foram aplicadas"
+        },
+        {
+          "text": "Quantas vacinas já foram aplicadas"
+        },
+        {
+          "text": "Vacina cidade"
+        }
+      ],
+      "description": "Informação sobre a situação das Vacinas em SC"
+    },
+    {
+      "intent": "variantes",
+      "examples": [
+        {
+          "text": "Mutações"
+        },
+        {
+          "text": "O que mudou na doença"
+        },
+        {
+          "text": "O que são variantes?"
+        },
+        {
+          "text": "Por que parece que a doença está mais perigosa?"
+        },
+        {
+          "text": "Quais são as variantes desta doença"
+        },
+        {
+          "text": "Variantes da covid"
+        }
+      ],
+      "description": "Falas sobre as variantes"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "caso_grave",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "agravamento",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "caso grave",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "piora da doença",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "pior caso",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "mascara",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "cirurgica",
+          "synonyms": [
+            "cirúrgica",
+            "máscara de médico"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pff2",
+          "synonyms": [
+            "KN95",
+            "N95",
+            "PFF2"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "tecido",
+          "synonyms": [
+            "lavável",
+            "malha",
+            "pano",
+            "tricô"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "nao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "não",
+          "synonyms": [
+            "não mesmo",
+            "negativo",
+            "nem pensar",
+            "possivelmente não"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "prevencao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "distanciamento social",
+          "synonyms": [
+            "distanciamento social",
+            "manter distancia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "higienização de ambientes",
+          "synonyms": [
+            "limpeza de ambientes"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "limpeza de mãos",
+          "synonyms": [
+            "higienização das mãos",
+            "lavar as mãos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "mascara",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sim",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Sim",
+          "synonyms": [
+            "afirmativo",
+            "com certeza",
+            "é isso ai",
+            "isso mesmo",
+            "por ai",
+            "positivo",
+            "talvez"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "tratamento_precoce",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "tratamento precoce",
+          "synonyms": [
+            "Azitromicina",
+            "Cloroquina",
+            "Hidroxicloroquina",
+            "Ivermectina",
+            "Profilaxia"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "https://us-south.functions.appdomain.cloud/api/v1/web/recigio%40gmail.com_dev/default/Download-Covid-Vaccine-JS.json",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá. Como posso te ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_9_1616460617618",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Então o recomendado é que você comunique todas as pessoas com quem você teve contato e você procure o serviço de saúde. Não tente automedicação, isto pode agravar a sua situação. Você provavelmente irá precisar fazer um teste para confirma, mas enquanto você espera o resultado, faça uma auto quarentena."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1616367920713",
+      "conditions": "@sim",
+      "dialog_node": "node_10_1617062512049"
+    },
+    {
+      "type": "standard",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1617409434211"
+      },
+      "conditions": "#mascaras",
+      "dialog_node": "node_10_1617412484601",
+      "previous_sibling": "node_3_1616363968497"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Os principais sintomas da doenças são: febre, tosse, dor de garganta e/ou coriza, com ou sem falta de ar. Se você estiver apresentando algum deles deve procurar um serviço de saúde. Em casos mais graves a pessoa pode ter dificuldades para respirar e pode vir a óbito. Contudo nem todos os infectados apresentam os sintomas e as vezes os sintomas podem variar. Em caso de suspeita procure ajuda médica."
+              },
+              {
+                "text": "Os sintomas mais frequentes da doença são: febre, tosse, dor de garganta e/ou coriza, com ou sem falta de ar. Em casos mais graves a doença pode levar a óbito. Se você estiver sentido algo, deve procurar ajuda médica e seguir as orientações. Os sintomas podem variar e nem todos os infectados irão desenvolver eles, então em caso de suspeita é preciso procurar um médico."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#sintomas",
+      "dialog_node": "node_1_1616365689026",
+      "previous_sibling": "node_4_1618274640907"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Até o presente momento no Brasil só existe um medicamento aprovado para ser usado no tratamento da doença o Remdesivir, mas ele é para uso hospitalar e tem certas restrições. Em caso de qualquer sintoma o melhor a fazer é procurar um médico e pedir orientações. Você não deve tentar se medicar sozinho, pois isto pode complicar a sua situação."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#tratamentos",
+      "dialog_node": "node_1_1616367130031",
+      "previous_sibling": "node_3_1616366882857"
+    },
+    {
+      "type": "standard",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1617409282785"
+      },
+      "conditions": "#higiene_maos",
+      "dialog_node": "node_1_1618274378534",
+      "previous_sibling": "node_10_1617412484601"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1616460617618",
+      "context": {
+        "cidade": "<?input_text?>"
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1618693575782"
+      },
+      "conditions": "true",
+      "dialog_node": "node_1_1618701670627"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oi"
+              },
+              {
+                "text": "Hallo"
+              },
+              {
+                "text": "Olá"
+              },
+              {
+                "text": "E ai"
+              },
+              {
+                "text": "Como vai"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#boas_vindas",
+      "dialog_node": "node_2_1616547303432",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O vírus da COVID-19 pode sobreviver em determinados ambientes e superfícies por um período de tempo. Esse tempo varia conforme o material da superfície entre outras coisas. Higienizar os locais serve para tentar eliminar o vírus que possa estar presente. Neste ponto também é necessário destacar que a limpeza de calçados e não usar calçados que vieram da rua dentro de casa é um ponto importante."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1616363968497",
+      "conditions": "@prevencao:(higienização de ambientes)",
+      "dialog_node": "node_2_1617409584096",
+      "previous_sibling": "node_5_1617409434211"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu sou um chatbot cujo o único objetivo de vida é falar sobre a COVID-19 e ajudar as pessoas a entenderem sobre esta doença."
+              },
+              {
+                "text": "Fui programado para falar sobre COVID-19. É para isto que eu existo"
+              },
+              {
+                "text": "Sou um robô cujo objetivo é falar sobre a COVID-19"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#smalltalk_bot",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1616353021332",
+      "previous_sibling": "node_2_1616547303432"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "As medidas que podem ser adotadas para prevenir a COVID-19 são:",
+            "options": [
+              {
+                "label": "Distanciamento Social",
+                "value": {
+                  "input": {
+                    "text": "distanciamento social"
+                  }
+                }
+              },
+              {
+                "label": "Higienização de mãos",
+                "value": {
+                  "input": {
+                    "text": "higienização de mãos"
+                  }
+                }
+              },
+              {
+                "label": "Uso de máscaras",
+                "value": {
+                  "input": {
+                    "text": "uso de máscaras"
+                  }
+                }
+              },
+              {
+                "label": "Higienização de ambientes",
+                "value": {
+                  "input": {
+                    "text": "higienização de ambientes"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#prevencao",
+      "dialog_node": "node_3_1616363968497",
+      "previous_sibling": "node_8_1616353002462"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para saber se você realmente possui a doença é necessário fazer um teste. Existem duas opções o teste rápido, que não é muito confiável e o teste PCR, que é mais caro, mas identifica a presença do vírus."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#testes",
+      "dialog_node": "node_3_1616366882857",
+      "previous_sibling": "node_1_1616365689026"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Vocês por um acaso está apresentando sintomas como: febre, tosse, dor de garganta e/ou coriza, com ou sem falta de ar?",
+            "options": [
+              {
+                "label": "Sim",
+                "value": {
+                  "input": {
+                    "text": "sim"
+                  }
+                }
+              },
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": "nao"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#infectado",
+      "dialog_node": "node_3_1616367920713",
+      "previous_sibling": "node_4_1616367700229"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "As mãos podem ser lavadas/higienizadas com água e sabão ou com álcool em gel 70%. A melhor opção é lavar com água e sabão, por pelo menos 20 segundos, garantindo a completa higienização de todas as partes da mão."
+              },
+              {
+                "text": "Manter as mãos limpas é um passo importante para evitar a doença. Lavar com água e sabão por no mínimo 20 segundos, garantindo que todas as partes dela sejam lavadas. Se não puder usar água e sabão, a segunda melhor opção é usar álcool em gel 70%."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1616363968497",
+      "conditions": "@prevencao:(limpeza de mãos)",
+      "dialog_node": "node_3_1617409282785"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Se você teve contato com uma pessoa infectada o recomendado é procurar um serviço de saúdo e informar as pessoas com as quais você teve contato depois."
+              },
+              {
+                "text": "Neste caso é importante que você informe as pessoas com as quais teve contato depois sobre a situação e que você também procure um serviço de saúde. Isto é importante para resguarda a sua saúde e a saúde das outras pessoas"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#contato_infectado",
+      "dialog_node": "node_4_1616367700229",
+      "previous_sibling": "node_1_1616367130031"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O colapso do sistema de saúde se refere ao fato dos hospitais não darem mais conta de tratar os doentes. No caso da COVID-19 algumas pessoas precisam de tratamento e até UTI. Quando todos os hospitais de uma região não tem mais como atender as pessoas dizemos que ocorreu o colapso e muitas pessoas podem acabar perdendo a vida pois não vão conseguir tratamento."
+              },
+              {
+                "text": "Quando os hospitais de uma região estão todos lotados e não tem mais como atender pacientes, mas existem muitos pacientes aguardando atendimento dizemos que ocorreu o colapso. Esta é uma situação terrível pois pessoas necessitando de atendimento naquele local podem morrer. O COVID-19 pode onerar o sistema de saúde ocupando vagas de hospital e leitos de UTI, o que contribui pra gerar a situação de colapso."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#colapso",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1616368436193",
+      "previous_sibling": "node_3_1616367920713"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "As variantes da doença se referem aos vírus da COVID que sofreram alguma mutação e desta forma modificaram o seu comportamento. Os efeitos que a mutação provação são variados. A variante P1 da doença por exemplo é mais contagiosa, o que faz com que seja mais fácil desenvolver a doença."
+              },
+              {
+                "text": "As variantes da COVID são coronavirus que sofreram algum mutação e desta forma mudaram o seu \"comportamento\". No Brasil temos um exemplo preocupante da variante P1 do coronavirus, variante de Manaus, que é mais contagiosa do que o coronavirus que originalmente chegou ao Brasil."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#variantes",
+      "dialog_node": "node_4_1616459245530",
+      "previous_sibling": "node_9_1616458970290"
+    },
+    {
+      "type": "standard",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1617409377648"
+      },
+      "conditions": "#distanciamento",
+      "dialog_node": "node_4_1618274640907",
+      "previous_sibling": "node_1_1618274378534"
+    },
+    {
+      "type": "standard",
+      "title": "resposta_vacina",
+      "output": {},
+      "parent": "node_1_1618701670627",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "mn_name": "$cidade"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_4_1618693575782"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Esses são os sintomas comuns da COVID, mas ela pode apresentar outros ou você pode ser um assintomático. No caso de suspeita procurar um serviço de saúde para fazer um teste e em caso positivo procurar um médico para entender a melhor forma de agir. Não tente fazer automedicação."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1616367920713",
+      "conditions": "@nao",
+      "dialog_node": "node_5_1617063055758",
+      "previous_sibling": "node_10_1617062512049"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "São máscaras recomendadas para a população em geral. Podem ser fabricadas como diversos materiais, mas o mais recomendado são três camadas de tecido, e que elas sejam trocadas a cada 2 horas ou se estiverem húmidas. Quanto maior for a contagem de fios da máscara melhor. A OMS recomenda modelos híbridos com: uma camada absorvente, uma filtrante e uma de material não absorvente . Máscaras de tricô não servem, o espaço entre os fios é muito grande e ele não filtra o ar. Lenços, cachecóis e bandanas protegem menos, então só devem ser usados em último recurso."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1617409434211",
+      "conditions": "@mascara:tecido",
+      "dialog_node": "node_5_1617064365577",
+      "previous_sibling": "node_8_1617063856224"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "O vírus pode viajar por aerossóis, partículas muito pequenas geradas durante a respiração, espirros, etc.. Máscaras podem ajudar a filtrar filtrar esses aerossóis, diminuindo a liberação que nós fazemos deles, e o nosso contato com os que estão no ar. Como a maioria das pessoas infectadas não apresenta sintomas, elas podem estar liberando o vírus sem saber. Existem várias máscaras e como exemplos podemos ter:",
+            "options": [
+              {
+                "label": "PFF2/N95",
+                "value": {
+                  "input": {
+                    "text": "pff2"
+                  }
+                }
+              },
+              {
+                "label": "Máscara cirúrgica ",
+                "value": {
+                  "input": {
+                    "text": "cirurgica "
+                  }
+                }
+              },
+              {
+                "label": "Máscara de tecido",
+                "value": {
+                  "input": {
+                    "text": "tecido"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1616363968497",
+      "conditions": "@prevencao:mascara",
+      "dialog_node": "node_5_1617409434211",
+      "previous_sibling": "node_6_1617409377648"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O vírus pode ser transmitindo por outras formas além do ar, como contato com pessoas ou superfícies infectadas. Manter uma distância mínima entre as pessoas ajuda a diminuir a possibilidade de pegar o vírus, isso se as outras formas de prevenção forem seguidas juntas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1616363968497",
+      "conditions": "@prevencao:(distanciamento social)",
+      "dialog_node": "node_6_1617409377648",
+      "previous_sibling": "node_3_1617409282785"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O lockdown é um termo usado para definir o fechamento de uma região. A ideia é impedir e limitar a circulação das pessoas para diminuir o contágio com uma doença e até parar ela. Sem pessoas circulando a taxa de infecção tende a cair, o que pode ajudar a evitar colapsos no sistema de saúde e salvar vidas."
+              },
+              {
+                "text": "O lockdown é a limitação da circulação das pessoas para diminuir o contágio com uma doença. É uma medida amarga, mas que ajuda a controlar a doença e alivia o sistema de saúde, caso a doença exija internações. Sem isto, podemos ter um colapso no sistema de saúde."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#lockdown",
+      "dialog_node": "node_7_1616368697308",
+      "previous_sibling": "node_4_1616368436193"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tratamento precoce, profilaxia ou kit covid se refere a um conjunto de medicamentos que foram testados no inicio da pandemia com o objetivo de tratar ou diminuir o número de internações. Alguns estudos mostraram que os medicamentos tinham alguma eficácia enquanto outros mostraram que essa eficácia não existia. Atualmente consenso de diversas entidades de saúde e até pela OMS é que o uso de tais remédios não é eficaz contra a COVID e seu uso pra tal fim não é recomendado."
+              },
+              {
+                "text": "Tratamento precoce, profilaxia ou kit covid se referem a um conjunto de medicamentos que acredita-se que ajuda a prevenir casos graves de COVID-19 se administrado nos primeiros dias de contaminação. Contudo o uso destes medicamentos é desencorajado por diversas entidades de saúde e até pela OMS. Tais medicamento não tem uma comprovação cientifica de eficácia contra a COVID. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1616367130031",
+      "conditions": "@tratamento_precoce",
+      "dialog_node": "node_7_1617410441006"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Um caso grave da doença se refere a pacientes que precisam de internação para recebimento de oxigênio e as vezes são até levados para a UTI. A dificuldade de respirar pode fazer com que sejam necessário a utilização de ventilação mecânica para tentar garantir a vida do paciente."
+              },
+              {
+                "text": "Nos casos graves da doença o paciente terá muita dificuldade para respirar, necessitando de internação para receber oxigênio. Em casos mais severos da doença será necessário que a pessoa receba cuidados em uma UTI e faça uso de ventilação mecânica (usar respirador)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1616365689026",
+      "conditions": "@caso_grave",
+      "dialog_node": "node_7_1617410501486"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A COVID 19 é nome da doença causada pelo coronavirus (SARS-Cov2). Esse vírus foi primeiramente identificado na China em 2019 e que depois se espalhou pelo mundo"
+              },
+              {
+                "text": "A doença COVID 19 é provocada pelo coronavirus (SARS-CoV2). Essa doença foi primeiramente identificada na cidade de Wuhan na China em 2019 e depois ela se espalhou para outros países."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#info",
+      "dialog_node": "node_8_1616353002462",
+      "previous_sibling": "node_3_1616353021332"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "São as máscaras que mais protegem e indicadas para profissionais de saúde, ou quem está em ambientes com risco mais elevado. Seus preços são variados e a denominação pode ser tanto PPF2 ou N95, cada pais usa um termo diferente. Máscaras KN95 seriam as equivalentes chinesas, mas não possuem uma padronização na produção então não são tão confiáveis quanto as N95 ou PPF2. Esse tipo de máscara tem um poder de filtragem de 95% e deve-se preferir os modelos sem válvulas, pois elas não filtram o ar que sai. Elas podem ser usadas por mais tempo que os outros tipos de máscaras. Para mais informações e saber onde você pode comprar esse tipo acesse: https://www.pffparatodos.com/."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1617409434211",
+      "conditions": "@mascara:pff2",
+      "dialog_node": "node_8_1617063506774"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ela possui uma filtragem melhor que as máscaras de tecido e tem um clip de ajuste no nariz. Ela é feita com materiais filtrantes específicos e deve seguir padrões. Ela também deve ser trocada quando estiverem húmidas, pois sua filtragem pode ficar comprometida."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1617409434211",
+      "conditions": "@mascara:cirurgica",
+      "dialog_node": "node_8_1617063856224",
+      "previous_sibling": "node_8_1617063506774"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O chamado grupo de risco se refere a pessoas que são mais propícias a desenvolver os quadros graves da doença e que precisam de mais cuidados. Esse grupo inclui pessoas idosas e com algum tipo de condição médica pré-existente, como por exemplo doenças pulmonares ou cardíacas."
+              },
+              {
+                "text": "Pessoas idosas ou com comorbidades são classificadas como um grupo de risco pois são mais suscetíveis a desenvolver os quadros graves da doença."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#grupo_risco",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1616458970290",
+      "previous_sibling": "node_7_1616368697308"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Certo, me diga o nome da cidade de Santa Catarina sobre a qual você deseja informações"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {},
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#vacina",
+      "dialog_node": "node_9_1616460617618",
+      "previous_sibling": "node_4_1616459245530"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1618701670627",
+      "context": {
+        "cidade": "<?input_text?>"
+      },
+      "disabled": true,
+      "conditions": "$webhook_result_2",
+      "dialog_node": "response_10_1618701722481",
+      "previous_sibling": "node_4_1618693575782"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1616460617618",
+      "disabled": true,
+      "dialog_node": "response_1_1618700594081",
+      "previous_sibling": "node_1_1618701670627"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1618701670627",
+      "disabled": true,
+      "conditions": "anything_else",
+      "dialog_node": "response_6_1618701724407",
+      "previous_sibling": "response_10_1618701722481"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Já foram aplicadas <? $webhook_result_1.data[0][\"1\"] ?> doses de vacina em <? $cidade ?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1618693575782",
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_8_1618693575783"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Desculpe, mas não consegui localizar os dados. Garanta que a cidade faz parte de SC e que a grafia do nome está correta"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_4_1618693575782",
+      "conditions": "anything_else",
+      "dialog_node": "response_9_1618693575783",
+      "previous_sibling": "response_8_1618693575783"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "chabot_covid",
+  "language": "pt-br",
+  "description": ""
+}
